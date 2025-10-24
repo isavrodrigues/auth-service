@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        SERVICE = 'auth'
-        NAME = "humbertosandmann/${env.SERVICE}"
+        SERVICE = 'auth-service'
+        NAME = "isavrodrigues/${env.SERVICE}"
     }
     stages {
         stage('Dependecies') {
